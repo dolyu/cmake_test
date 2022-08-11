@@ -1,0 +1,14 @@
+
+#pragma once
+
+/* Application details */
+#define SHF_TITLE "@SHF_TITLE@"
+#define SHF_DESCRIPTION "@SHF_DESCRIPTION@"
+#define SHF_BIN_NAME "@PROJECT_NAME@"
+
+/* SHF version information */
+#define SHF_VERSION_MAJOR @SHF_VERSION_MAJOR@
+#define SHF_VERSION_MINOR @SHF_VERSION_MINOR@
+#define SHF_VERSION_MICRO @SHF_VERSION_MICRO@
+#define SHF_VERSION_STRING "@SHF_VERSION_STRING@"
+

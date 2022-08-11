@@ -1,0 +1,33 @@
+{
+  "tasks": [
+    {
+      "type": "cppbuild",
+      "label": "C/C++: g++.exe 활성 파일 빌드",
+      "command": "C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin/g++.exe",
+      "args": [
+        "-fdiagnostics-color=always",
+        "-g",
+        "-std=c++2a",
+        "${file}",
+        "-o",
+        "${fileDirname}//${fileBasenameNoExtension}.exe",
+        "-I","C:/local/boost_1_79_0",
+        "-L","C:/local/boost_1_79_0/stage/lib",
+        // "-lboost_filesystem-vc143-mt-s-x64-1_79"
+        "-lboost_filesystem-mgw11-mt-x64-1_79"
+      ],
+      "options": {
+        "cwd": "C:/ProgramData/chocolatey/lib/mingw/tools/install/mingw64/bin"
+      },
+      "problemMatcher": [
+        "$gcc"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "detail": "디버거에서 생성된 작업입니다."
+    }
+  ],
+  "version": "2.0.0"
+}
